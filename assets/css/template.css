@@ -251,3 +251,22 @@ article .news-resume {
   font-size: 14px;
   margin-bottom: 30px;
 }
+
+.widget-body-departments {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.widget-body-departments .square {
+  width: 150px;
+  height: 150px;
+  justify-content: space-between;
+  background-color: #39aae1;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.widget-body-departments .square:nth-child(2n+2) {
+  margin-right: 0px;
+}
