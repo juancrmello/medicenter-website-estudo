@@ -292,3 +292,71 @@ article .news-resume {
   text-decoration: none;
   color: #0079c7;
 }
+
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-menu {
+  display: flex;
+}
+
+.fm-1, .fm-2, .fm-3 {
+  flex: 1;
+  color: #FFFFFF;
+}
+
+.fm-1 {
+  background-color: #39aae1;
+}
+
+.fm-2 {
+  background-color: #0079c7;
+}
+
+.fm-3 {
+  background-color: #2b4c99;
+}
+
+.footer-menu a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+.footer-menu a .menu-text{
+  font-size: 25px;
+}
+
+.footer-menu a h2 {
+  font-size: 12px;
+}
+
+.footer-area {
+  display: flex;
+}
+
+.footer-areaitem {
+  flex: 1;
+  color: #ffffff;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+footer .widget-title-text {
+  color: #ffffff;
+}
+
+.footer-copy {
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 30px;
+}
