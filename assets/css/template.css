@@ -270,3 +270,25 @@ article .news-resume {
 .widget-body-departments .square:nth-child(2n+2) {
   margin-right: 0px;
 }
+
+.text-appointment-premier {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.text-appointment {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.text-appointment a {
+  text-decoration: none;
+  color: #0079c7;
+}
