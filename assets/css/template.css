@@ -265,6 +265,7 @@ article .news-resume {
   background-color: #39aae1;
   margin-right: 30px;
   margin-bottom: 30px;
+  cursor:  pointer;
 }
 
 .widget-body-departments .square:nth-child(2n+2) {
@@ -494,6 +495,15 @@ footer .footer-copy {
   nav ul {
     flex-direction: column;
     display: none;
+    position:  absolute;
+    left:  0;
+    width:  100%;
+    background-color:  #ffffff;
+  }
+
+  nav a:hover {
+    background-color: #39aae1;
+    color: white;
   }
 
   header {
